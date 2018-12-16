@@ -313,11 +313,13 @@ input[type=submit] {
     }
     .main-section {
       padding-top: 7px;
-      max-width: 740px;
+      max-width: 730px;
       max-height: 100%;
       line-height: 30px;
       font-size: 20px;
       overflow: hidden;
+      margin: auto;
+      margin-bottom: 40px;
     } 
     .auth-image {
       width: 300px;
@@ -331,7 +333,8 @@ input[type=submit] {
       max-height: 550px;
       line-height: 30px;
       font-size: 20px;
-      margin-bottom: 70px;
+      margin: auto;
+      margin-bottom: 40px;
     }
     #contact-form ul {
       max-height: 500px;
@@ -347,22 +350,25 @@ input[type=submit] {
     }
     .portfoliomain-section {
       padding-top: 7px;
-      max-width: 735px;
-      max-height: 890px;
+      max-width: 750px;
+      max-height: 100%;
       line-height: 20px;
       font-size: 10px;
+      margin: auto;
       margin-bottom: 40px;
     }
     .work {
-      width: 315px;
+      width: auto;
     }
     .work img {
-      width: 315px;
-      height: 200px;
+      max-width: 315px;
+      width: 100%;
+      height: auto;
       object-fit: cover;
     }
     .work h3 {
-      width: 315px;
+      max-width: 315px;
+      width: 100%;
       padding: 10px;
       font-weight: 100;
       line-height: 15px;
@@ -375,12 +381,15 @@ input[type=submit] {
       margin-left: 0px;
     }
     #logo {
-      width: 640px;
+      width: 100%;
     }
     nav {
-      position: relative;
-      right: 165px;
+      display: flex;
+      justify-content: center;
+      margin-right: auto;
+      width: 100%;
     }
+
     .main-section {
       margin-top: 40px;
       margin-right: 10px;
@@ -392,8 +401,8 @@ input[type=submit] {
       font-size: 15px;
     } 
     .auth-image {
-      width: 540px;
-      height: 500px;
+      width: 100%;
+      height: auto;
       object-fit: cover;
     }
     .contactmain-section {
@@ -430,15 +439,18 @@ input[type=submit] {
       margin-bottom: 40px;
     }
     .work {
-      width: 540px;
+      width: 100%;
+      max-width: 630px;
     }
     .work img {
-      width: 540px;
-      height: 400px;
+      width: 100%;
+      max-width: 630px;
+      height: auto;
       object-fit: cover;
     }
     .work h3 {
-      width: 540px;
+      width: 100%;
+      max-width: 630px;
       padding: 10px;
       font-weight: 100;
       line-height: 15px;
